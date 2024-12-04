@@ -7,13 +7,7 @@ Cordova plugin that exposes screen pinning APIs on Android (API 21+).
 Run the following command inside your project's folder:
 
 ```sh
-cordova plugin add cordova-plugin-screen-pinning
-```
-
-If you are using Ionic run the following command instead:
-
-```sh
-ionic cordova plugin add cordova-plugin-screen-pinning
+npm install https://github.com/yokowasis/cordova-plugin-screen-pinning/
 ```
 
 ## Usage
