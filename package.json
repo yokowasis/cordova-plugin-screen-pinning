@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fdmnio/cordova-plugin-screen-pinning.git"
+    "url": "git+https://github.com/yokowasis/cordova-plugin-screen-pinning.git"
   },
   "keywords": [
     "cordova",
@@ -24,10 +24,10 @@
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "author": "Federico Meini",
+  "author": "Wasis Haryo Sasoko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fdmnio/cordova-plugin-screen-pinning/issues"
+    "url": "https://github.com/yokowasis/cordova-plugin-screen-pinning/issues"
   },
-  "homepage": "https://github.com/fdmnio/cordova-plugin-screen-pinning#readme"
+  "homepage": "https://github.com/yokowasis/cordova-plugin-screen-pinning#readme"
 }

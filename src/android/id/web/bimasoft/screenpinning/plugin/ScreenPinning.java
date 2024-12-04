@@ -1,4 +1,4 @@
-package io.fdmn.plugin;
+package id.web.bimasoft.screenpinning.plugin;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CordovaWebView;
@@ -61,7 +61,7 @@ public class ScreenPinning extends CordovaPlugin {
 
         return false;
     }
-
+    
 
     /**
      * enterPinnedMode()

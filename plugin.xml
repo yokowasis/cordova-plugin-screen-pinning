@@ -12,9 +12,9 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
         <feature name="ScreenPinning">
-            <param name="android-package" value="io.fdmn.plugin.ScreenPinning" />
+            <param name="android-package" value="id.web.bimasoft.screenpinning.plugin" />
         </feature>
         </config-file>
-        <source-file src="src/android/io/fdmn/plugin/ScreenPinning.java" target-dir="src/io/fdmn/plugin" />
+        <source-file src="src/android/id/web/bimasoft/screenpinning/plugin/ScreenPinning.java" target-dir="src/id/web/bimasoft/screenpinning/plugin" />
     </platform>
 </plugin>
