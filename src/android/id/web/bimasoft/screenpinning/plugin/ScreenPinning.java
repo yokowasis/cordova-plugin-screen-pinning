@@ -74,10 +74,10 @@ public class ScreenPinning extends CordovaPlugin {
 
       try {
         if (activityManager.isInLockTaskMode()) {
-          callback.success(true);
+          callback.success(1);
           return true;
         } else {
-          callback.success(false);
+          callback.success(0);
           return false;
         }
       } catch (Exception e) {
