@@ -17,6 +17,7 @@ public class ScreenPinning extends CordovaPlugin {
 
     private static final String ACTION_ENTER_PINNED_MODE = "enterPinnedMode";
     private static final String ACTION_EXIT_PINNED_MODE = "exitPinnedMode";
+    private static final String ACTION_IS_PINNED = "isPinned";
 
     private CallbackContext callback = null;
     private Activity activity = null;
@@ -52,6 +53,10 @@ public class ScreenPinning extends CordovaPlugin {
             else if (ACTION_EXIT_PINNED_MODE.equals(action)) {
                 return exitPinnedMode();
             }
+
+            else if (ACTION_IS_PINNED.equals(action)) {
+                return isPinned();
+            }
             
         }
 
@@ -60,6 +65,13 @@ public class ScreenPinning extends CordovaPlugin {
         }
 
         return false;
+    }
+    
+    /**
+     * enterPinnedMode()
+     */
+    private boolean isPinned() {
+        return activityManager.isInLockTaskMode();
     }
     
 

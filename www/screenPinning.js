@@ -26,6 +26,13 @@ var ScreenPinning = {
   exitPinnedMode: function (successCallback, errorCallback) {
     exec(successCallback, errorCallback, "ScreenPinning", "exitPinnedMode", []);
   },
+
+  /**
+   * isPinned()
+   */
+  isPinned: function (successCallback, errorCallback) {
+    exec(successCallback, errorCallback, "ScreenPinning", "isPinned", []);
+  },
 };
 
 module.exports = ScreenPinning;
